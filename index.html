@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">	
+</head>
+<body class="body">
+<div class="back">
+<h1 class="heading">Cloud Login</h1>
+</div>
+
+<div class="login">
+<section id="container">
+	<form action="/cgi-bin/login.py" method="POST">
+	<fieldset class="fieldset">
+	<legend class="legend">LOGIN</legend>
+	<table>
+	<tr>
+	<td><input type="text" name="uname" placeholder="Enter user name"></td>
+	</tr>
+	<tr>
+	<td><input type="password" name="pass" placeholder="Enter password"></td>
+	</tr>
+	<tr>
+	<td><input type="submit" value="Login"></td> 
+	</tr>
+	</table>
+	</form><br>
+	<a href ="http://192.168.122.163/signup.html">Sign Up</a>
+	</fieldset>
+</div>
+</body>
+</html>
